@@ -1,6 +1,6 @@
 # Water tank level monitor
 
-This project is built with ESP32 and esp-idf framework. It periodically sends data to MQTT broker using TLS connection. It is collecting data from two UART ultrasonic sensors placed inside two separate large rain water tanks.
+This project is built with ESP32 and esp-idf framework. It periodically sends data to MQTT broker using TLS connection or HTTPS InfluxDB 2.0 Cloud endpoint. It is collecting data from two UART ultrasonic sensors placed inside two separate large rain water tanks.
 
 ## Project structure
 
@@ -12,6 +12,6 @@ Project is divided on components:
 
 ## Secrets
 
-To run project you need `client.crt`, `client.key` and `types.h` file. 
+To run project you need `client.crt`, `client.key` and `secret.h` file. 
 
-`types.h` contains `#define MQTT_ENDPOINT "mqtts://broker-addres.com:8883"`
+To create `secret.h` lookup `secretEXAMPLE.h`.
