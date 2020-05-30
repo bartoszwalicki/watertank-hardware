@@ -1,0 +1,6 @@
+build/
+keys/
+client.crt
+client.key
+sdkconfig
+secret.h

@@ -1,0 +1,20 @@
+{
+  "C_Cpp.clang_format_style": "Visual Studio",
+  "editor.formatOnSave": false,
+  "[cpp]": {
+    "editor.quickSuggestions": true
+  },
+  "[c]": {
+    "editor.quickSuggestions": true
+  },
+  "C_Cpp.intelliSenseEngineFallback": "Enabled",
+  "idf.port": "/dev/ttyUSB0",
+  "files.associations": {
+    "array": "c",
+    "string": "c",
+    "string_view": "c",
+    "ranges": "c",
+    "export": "c",
+    "chrono": "c"
+  }
+}
