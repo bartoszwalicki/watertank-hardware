@@ -9,6 +9,7 @@ Project is divided on components:
 * `ssc-time` - timekeeping and synchronisation, generating timestamps
 * `ssc-mqtt` - managing secure MQTT and sendind data to the broker
 * `ssc-ultrasonic_distance` - communicating with UART sensors
+* `ssc-http` - HTTPS connection to InfluxDB 2.0 Cloud
 
 ## Secrets
 
