@@ -104,6 +104,6 @@ void app_main(void) {
     vTaskDelay(200 / portTICK_RATE_MS);
     send_data_to_influxdb_cloud(&tankData);
 
-    vTaskDelay(10000 / portTICK_RATE_MS);
+    vTaskDelay(9200 / portTICK_RATE_MS);
   }
 }
