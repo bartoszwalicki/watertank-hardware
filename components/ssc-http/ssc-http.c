@@ -74,7 +74,7 @@ void send_data_to_influxdb_cloud(struct TankData *tank_data) {
   char temp_value[50];
   sprintf(temp_value,
           "waterlevel,tank=%d t=%d,w=%d %" PRId64 "\n",
-          tank_data->tank_id, tank_data->temperature, tank_data->waterlevel,
+          tank_data->tank_id, 100, tank_data->waterlevel,
           tank_data->timestamp);
 
   esp_http_client_config_t config = {.url = INFLUXDB2_CLOUD_URL,
